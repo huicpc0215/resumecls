@@ -71,6 +71,7 @@
 %-------------------------------------------------------------------------------
 % \AtEndPreamble hook (loading etoolbox instead of defining the macro, as to avoid incompatibilities with etoolbox (and packages relying on it) defining the macro too)
 \RequirePackage{etoolbox}
+\RequirePackage{xeCJK}
 %\let\@endpreamblehook\@empty
 %\def\AtEndPreamble{\g@addto@macro\@endpreamblehook}
 %\let\document@original\document
