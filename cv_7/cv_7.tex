@@ -25,7 +25,7 @@
 
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
@@ -49,10 +49,10 @@
 \phone{+86 182 2974 9492}
 %\fax{(000) 111 1113}
 \email{huicpc0215@gmail.com}
-\homepage{huicpc0215.uni.me}{huicpc0215.uni.me} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-\extrainfo{resume url}
+\homepage{huicpc0215.github.io}{huicpc0215.github.io} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{resume url}
 \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-\quote{"Talk is cheap , show me the code " - Linus Torvalds}
+%\quote{"Talk is cheap , show me the code " - Linus Torvalds}
 
 %----------------------------------------------------------------------------------------
 
@@ -70,17 +70,27 @@
 %\cventry{2009--2013}{学of Commerce}{The University of California}{Berkeley}{\textit{GPA -- 8.0}}{First Class Honours}  % Arguments not required can be left empty
 %\cventry{2007--2013}{Bachelor of Business Studies}{The University of California}{Berkeley}{\textit{GPA -- 7.5}}{Specialized in Commerce}
 
-\cventry{2013--2016}{\textit{硕士, 信息与通信工程}}{湖南大学 信息与科学与工程学院}{ 湖南长沙 }{}{保送研究生\newline{}} % Arguments not required can be left empty
+\cventry{2013--2016}{\textit{硕士, 信息与通信工程}}{湖南大学 信息与科学与工程学院}{ 湖南长沙 }{}{\textit{保送研究生}\newline{}} % Arguments not required can be left empty
 \cventry{2009--2013}{\textit{学士, 通信工程      }}{湖南大学 信息与科学与工程学院}{ 湖南长沙 }{}{\textit{Top -- 10\%} \newline{}}
 %\cventry{2009--2013}{学士, 通信工程}{湖南大学 信息与科学与工程学院}{ 湖南长沙 }{\textit{Top -- 0.10}}
-\section{科研经历}
+\section{科研经历\newline{}}
 
-\cvitem{地点}{\emph{湖南大学 可信系统与网络实验室}}
-\cvitem{指导老师}{湖南大学信息科学与工程学院副教授 谢鲲}
-\cvitem{研究内容}{1) 使用Bloom Filter相关的技术,处理数据的快速插入删除和查询.}
-\cvitem{}{2)使用Bloom Filter,查找集合的差异大小,以及差异内容.}
-\cvitem{}{3)使用Bloom Filter在无线网络中进行安全的加密聚合和解密.}
+\cvitem{地点}{湖南大学 可信系统与网络实验室}
+\cvitem{指导老师}{湖南大学信息科学与工程学院副教授,谢鲲}
+\cvitem{研究内容}{1)基于Bloom Filter,大数据的快速插入删除数据.}
+\cvitem{}{2)基于Bloom Filter,大数据的快速差异判断.}
+\cvitem{}{3)基于Bloom Filter,键值队存储在空间和正确性以及查询效率上进行平衡.}
 
+
+\section{项目经验\newline{}}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+\cvitem{2013--2014}{搭建个人服务器,并维护个人博客}
+%\cvitem{2013--2014}{在边界网关转发校内包,使得非校园网用户也能访问我的服务器\newline{}}
+%\cvitem{2013--2014}{自编译路由器,使用校园网锐捷拨号上网\newline{}}
+\cvitem{2013--2014}{利用神经网络学习的方法,训练识别出阿拉伯数字的模型}
+\cvitem{2014--2015}{编写网络爬虫,爬取网页信息}
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
@@ -121,7 +131,7 @@
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{获得荣誉}
+\section{获得荣誉\newline{}}
 
 %\cvitem{2011}{School of Business Postgraduate Scholarship}
 %\cvitem{2010}{Top Achiever Award -- Commerce}
@@ -132,49 +142,49 @@
 \cvitem{2011.10.23}{第36届ACM-ICPC亚洲区预选赛北京赛区铜牌}
 \cvitem{2011.11.20}{第36届ACM-ICPC亚洲区预选赛福州赛区铜牌}
 \cvitem{2012.4.22}{第37届ACM-ICPC亚洲区预选赛长春赛区邀请赛银牌}
-\cvitem{2012.10.14}{第37届ACM-ICPC亚洲区预选赛长春赛区铜牌}
-\cvitem{2012.10.21}{ 第37届ACM-ICPC亚洲区预选赛天津赛区铜牌}
+%\cvitem{2012.10.14}{第37届ACM-ICPC亚洲区预选赛长春赛区铜牌}
+\cvitem{2012.10.21}{第37届ACM-ICPC亚洲区预选赛天津赛区铜牌}
+\cvitem{2014.11.21}{第二届阿里巴巴大数据竞赛云上贵州初赛39名}
 
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{专业技能}
+%\section{专业技能\newline{}}
 
-\cvitem{使用}{\textsc{java}, \textsc{html}}
-\cvitem{掌握}{\textsc{python}, \LaTeX, Microsoft Office, Git}
-\cvitem{熟练}{C/C++, Linux}
-\cvitem{工具}{Vi, Eclipse, Octave/Matlab}
+%\cvitem{基本使用}{Html ,Perl ,JavaScript, Jquery \newline{} }
+%\cvitem{较为熟练}{Java, Python, \LaTeX, Git, Matlab \newline{} }
+%\cvitem{熟练掌握}{C/C++, Matlab \newline{}}
+%\cvitem{工具}{Vi, Eclipse, Octave/Matlab \newline{}}
 
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Communication Skills}
-
-\cvitem{2010}{Oral Presentation at the California Business Conference}
-\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+%\cvitem{2013--2014}{使用python已有库,以及bloom filter,爬出彩票网站的历史记录\newline{}}
 
 %----------------------------------------------------------------------------------------
 %	LANGUAGES SECTION
 %----------------------------------------------------------------------------------------
 
-\section{语言能力}
+%\section{语言能力\newline{}}
 
-\cvitemwithcomment{English}{College English Test -- Band 4}{561}
-\cvitemwithcomment{English}{College English Test -- Band 6}{449}
+%\cvitem{English}{College English Test -- Band 4     561\newline{} }
+%%\cvitem{English}{College English Test -- Band 6     449\newline{} }
+%\cvitemwithcomment{English}{College English Test -- Band 4}{561}
+%\cvitemwithcomment{English}{College English Test -- Band 6}{449}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{个人爱好}
+%\section{个人爱好\newline{}}
 
-\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistdoubleitem{乒乓球}{羽毛球}
-\cvlistdoubleitem{跑步}{烹饪}
+%\cvlistdoubleitem{乒乓球}{羽毛球\newline{}}
+%\cvlistdoubleitem{跑步}{烹饪\newline{}}
 
 %----------------------------------------------------------------------------------------
 %	COVER LETTER

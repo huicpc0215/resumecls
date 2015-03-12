@@ -278,6 +278,7 @@
 %-------------------------------------------------------------------------------
 % elements
   \newcommand*{\extrainfo}[1]{\def\@extrainfo{#1} }
+%  \newcommand*{\extrainfo}[2]{\def\@extrainfo{\href{#2}{#1} } }
 %\newcommand*{\homepage}[2]{\def\@homepage{#1}\def\@homepagetitle{#2}}
 \newcommandx*{\photo}[3][1=64pt,2=0.4pt,usedefault]{\def\@photowidth{#1}\def\@photoframewidth{#2}\def\@photo{#3}}% the 1st (optional) argument is the width of the photo, the 2nd (optional) argument is the thickness of the frame around it.
 \newcommand*{\quote}[1]{\def\@quote{#1}}
